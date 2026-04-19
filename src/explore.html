@@ -140,6 +140,45 @@
       </span>
     </div>
 
+    <section class="max-w-7xl mx-auto p-6 mt-4">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="h-3 w-3 rounded-full bg-rose-500 animate-ping"></div>
+        <h2 class="text-2xl font-black tracking-tighter dark:text-white uppercase">Happening in KH</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="group relative overflow-hidden rounded-[32px] bg-slate-900 aspect-video cursor-pointer">
+          <img src="https://picsum.photos/600/400?tech" class="absolute inset-0 h-full w-full object-cover opacity-60 transition duration-500 group-hover:scale-110 group-hover:opacity-40" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+          <div class="absolute bottom-6 left-6">
+            <span class="rounded-lg bg-brand px-3 py-1 text-[10px] font-black uppercase text-white">Tech Workshop</span>
+            <h3 class="mt-2 text-xl font-bold text-white">Flutter Dev Meetup 2026</h3>
+            <p class="text-xs text-slate-300 font-medium"><i class="fa-solid fa-location-dot mr-1"></i> Factory Phnom Penh</p>
+          </div>
+        </div>
+
+        <div class="group relative overflow-hidden rounded-[32px] bg-slate-900 aspect-video cursor-pointer">
+          <img src="https://picsum.photos/600/400?art" class="absolute inset-0 h-full w-full object-cover opacity-60 transition duration-500 group-hover:scale-110 group-hover:opacity-40" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+          <div class="absolute bottom-6 left-6">
+            <span class="rounded-lg bg-purple-500 px-3 py-1 text-[10px] font-black uppercase text-white">Art Exhibition</span>
+            <h3 class="mt-2 text-xl font-bold text-white">Modern Khmer Strokes</h3>
+            <p class="text-xs text-slate-300 font-medium"><i class="fa-solid fa-location-dot mr-1"></i> Rosewood Gallery</p>
+          </div>
+        </div>
+
+        <div class="hidden lg:block group relative overflow-hidden rounded-[32px] bg-slate-900 aspect-video cursor-pointer">
+          <img src="https://picsum.photos/600/400?coffee" class="absolute inset-0 h-full w-full object-cover opacity-60 transition duration-500 group-hover:scale-110 group-hover:opacity-40" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+          <div class="absolute bottom-6 left-6">
+            <span class="rounded-lg bg-emerald-500 px-3 py-1 text-[10px] font-black uppercase text-white">Community</span>
+            <h3 class="mt-2 text-xl font-bold text-white">Startup Coffee Morning</h3>
+            <p class="text-xs text-slate-300 font-medium"><i class="fa-solid fa-location-dot mr-1"></i> Brown Coffee RO</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section
       class="max-w-7xl mx-auto columns-2 md:columns-3 lg:columns-4 gap-6 p-6"
     >
@@ -208,5 +247,263 @@
         class="mb-6 rounded-[32px] w-full break-inside-avoid hover:scale-105 hover:shadow-2xl transition duration-500 cursor-pointer"
       />
     </section>
+
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-2 py-12 px-6">
+      <button class="flex h-12 w-12 items-center justify-center rounded-2xl border border-slate-200 bg-white text-slate-600 transition-all hover:border-brand hover:text-brand dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400 cursor-pointer active:scale-90">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <div class="flex items-center gap-2">
+        <button class="h-12 w-12 rounded-2xl bg-brand font-black text-white shadow-lg shadow-brand/20 cursor-pointer">
+          1
+        </button>
+        <button class="h-12 w-12 rounded-2xl border border-slate-200 bg-white font-bold text-slate-600 transition-all hover:border-brand hover:text-brand dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400 cursor-pointer active:scale-90">
+          2
+        </button>
+        <button class="h-12 w-12 rounded-2xl border border-slate-200 bg-white font-bold text-slate-600 transition-all hover:border-brand hover:text-brand dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400 cursor-pointer active:scale-90">
+          3
+        </button>
+        
+        <span class="px-2 font-black text-slate-300 dark:text-slate-700">...</span>
+        
+        <button class="h-12 w-12 rounded-2xl border border-slate-200 bg-white font-bold text-slate-600 transition-all hover:border-brand hover:text-brand dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400 cursor-pointer active:scale-90">
+          12
+        </button>
+      </div>
+
+      <button class="flex h-12 w-12 items-center justify-center rounded-2xl border border-slate-200 bg-white text-slate-600 transition-all hover:border-brand hover:text-brand dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400 cursor-pointer active:scale-90">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <section class="max-w-7xl mx-auto p-6 mt-10">
+      <div class="flex items-center justify-between mb-8">
+        <div>
+          <h2 class="text-3xl font-black tracking-tighter dark:text-white">Trending Creators</h2>
+          <p class="text-slate-500 dark:text-slate-400 font-medium">The minds shaping the digital landscape.</p>
+        </div>
+        <button class="text-brand font-bold hover:underline">View All</button>
+      </div>
+
+      <div class="flex gap-6 overflow-x-auto no-scrollbar pb-4">
+        <div class="min-w-[280px] group relative rounded-[32px] bg-white p-6 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 transition-all hover:shadow-2xl hover:shadow-brand/10">
+          <div class="flex flex-col items-center text-center">
+            <div class="relative mb-4">
+              <img src="https://i.pravatar.cc/150?u=1" class="h-24 w-24 rounded-full border-4 border-brand p-1 object-cover" alt="creator" />
+              <span class="absolute bottom-1 right-1 flex h-6 w-6 items-center justify-center rounded-full bg-blue-500 text-[10px] text-white ring-4 ring-white dark:ring-slate-900">
+                <i class="fa-solid fa-check"></i>
+              </span>
+            </div>
+            <h3 class="text-xl font-black dark:text-white">Sopheak Dev</h3>
+            <p class="text-sm font-bold text-slate-400 mb-4">@sopheak_codes</p>
+            <button class="w-full rounded-2xl bg-slate-900 py-3 text-sm font-black text-white transition-all hover:bg-brand dark:bg-slate-800 dark:hover:bg-brand">
+              Follow
+            </button>
+          </div>
+        </div>
+
+        <div class="min-w-[280px] group relative rounded-[32px] bg-white p-6 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 transition-all hover:shadow-2xl hover:shadow-brand/10">
+          <div class="flex flex-col items-center text-center">
+            <div class="relative mb-4">
+              <img src="https://i.pravatar.cc/150?u=2" class="h-24 w-24 rounded-full border-4 border-purple-500 p-1 object-cover" alt="creator" />
+            </div>
+            <h3 class="text-xl font-black dark:text-white">Lina Art</h3>
+            <p class="text-sm font-bold text-slate-400 mb-4">@lina_vibes</p>
+            <button class="w-full rounded-2xl bg-slate-900 py-3 text-sm font-black text-white transition-all hover:bg-brand dark:bg-slate-800 dark:hover:bg-brand">
+              Follow
+            </button>
+          </div>
+        </div>
+
+        <div class="min-w-[280px] group relative rounded-[32px] bg-white p-6 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 transition-all hover:shadow-2xl hover:shadow-brand/10">
+          <div class="flex flex-col items-center text-center">
+            <div class="relative mb-4">
+              <img src="https://i.pravatar.cc/150?u=3" class="h-24 w-24 rounded-full border-4 border-emerald-500 p-1 object-cover" alt="creator" />
+            </div>
+            <h3 class="text-xl font-black dark:text-white">Borey Tech</h3>
+            <p class="text-sm font-bold text-slate-400 mb-4">@borey_kh</p>
+            <button class="w-full rounded-2xl bg-slate-900 py-3 text-sm font-black text-white transition-all hover:bg-brand dark:bg-slate-800 dark:hover:bg-brand">
+              Follow
+            </button>
+          </div>
+        </div>
+
+        <div class="min-w-[280px] group relative rounded-[32px] bg-white p-6 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 transition-all hover:shadow-2xl hover:shadow-brand/10">
+          <div class="flex flex-col items-center text-center">
+            <div class="relative mb-4">
+              <img src="https://i.pravatar.cc/150?u=4" class="h-24 w-24 rounded-full border-4 border-amber-500 p-1 object-cover" alt="creator" />
+            </div>
+            <h3 class="text-xl font-black dark:text-white">Dara Design</h3>
+            <p class="text-sm font-bold text-slate-400 mb-4">@dara_pixel</p>
+            <button class="w-full rounded-2xl bg-slate-900 py-3 text-sm font-black text-white transition-all hover:bg-brand dark:bg-slate-800 dark:hover:bg-brand">
+              Follow
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <footer
+      class="mt-16 border-t border-slate-200 bg-white py-10 dark:border-slate-800 dark:bg-slate-900"
+    >
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
+          <div class="lg:col-span-4 text-center lg:text-left">
+            <div
+              class="flex items-center justify-center gap-3 lg:justify-start"
+            >
+              <div
+                class="flex h-10 w-10 items-center justify-center rounded-[14px] bg-linear-to-br from-brand to-purple-600 shadow-lg shadow-brand/20"
+              >
+                <i class="fa-solid fa-bolt-lightning text-white"></i>
+              </div>
+              <span
+                class="text-2xl font-black italic tracking-tighter text-slate-900 dark:text-white"
+                >VibeNet</span
+              >
+            </div>
+            <p
+              class="mt-4 text-sm font-medium leading-relaxed text-slate-500 dark:text-slate-400 max-w-xs mx-auto lg:mx-0"
+            >
+              The premium creator ecosystem in Cambodia. Join the wave and
+              amplify your digital presence.
+            </p>
+          </div>
+
+          <div class="lg:col-span-5 grid grid-cols-2 md:grid-cols-3 gap-8">
+            <div>
+              <h5
+                class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-900 dark:text-white mb-4"
+              >
+                Platform
+              </h5>
+              <ul class="space-y-2 text-xs font-bold text-slate-400">
+                <li>
+                  <a href="#" class="transition-colors hover:text-brand"
+                    >Discover</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="transition-colors hover:text-brand"
+                    >Vibe TV</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="transition-colors hover:text-brand"
+                    >Groups</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5
+                class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-900 dark:text-white mb-4"
+              >
+                Company
+              </h5>
+              <ul class="space-y-2 text-xs font-bold text-slate-400">
+                <li>
+                  <a href="#" class="transition-colors hover:text-brand"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="transition-colors hover:text-brand"
+                    >Careers</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="transition-colors hover:text-brand"
+                    >Press</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5
+                class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-900 dark:text-white mb-4"
+              >
+                Support
+              </h5>
+              <ul class="space-y-2 text-xs font-bold text-slate-400">
+                <li>
+                  <a href="#" class="transition-colors hover:text-brand"
+                    >Help Center</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="transition-colors hover:text-brand"
+                    >Privacy</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="transition-colors hover:text-brand"
+                    >Terms</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="lg:col-span-3">
+            <h5
+              class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-900 dark:text-white mb-4 text-center lg:text-left"
+            >
+              Stay in the Vibe
+            </h5>
+            <div
+              class="flex items-center gap-2 rounded-2xl bg-slate-50 p-1 dark:bg-slate-800"
+            >
+              <input
+                type="email"
+                placeholder="Email..."
+                class="w-full bg-transparent px-3 text-xs font-bold outline-none"
+              />
+              <button
+                class="h-8 w-8 rounded-xl bg-brand text-white shadow-md transition-transform active:scale-95"
+              >
+                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </button>
+            </div>
+            <div
+              class="mt-4 flex justify-center lg:justify-start gap-4 text-slate-400"
+            >
+              <a
+                href="https://web.facebook.com/?_rdc=1&_rdr#"
+                class="hover:text-brand transition-colors"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="hover:text-brand transition-colors"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="hover:text-brand transition-colors"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="mt-12 flex flex-col items-center justify-between border-t border-slate-100 pt-8 dark:border-slate-800/50 md:flex-row"
+        >
+          <p
+            class="text-[9px] font-bold uppercase tracking-[0.3em] text-slate-400"
+          >
+            © 2026 VibeNet KH. Made with
+            <i class="fa-solid fa-heart text-rose-500 mx-1"></i> in Phnom Penh
+          </p>
+          <div class="mt-4 flex gap-6 md:mt-0">
+            <div
+              class="flex items-center gap-2 text-[9px] font-black uppercase tracking-widest text-slate-400"
+            >
+              <span
+                class="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse"
+              ></span>
+              System Operational
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
