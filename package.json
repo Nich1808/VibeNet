@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {
+    "posthtml-include": "^2.0.1",
+    "vite": "^8.0.8",
+    "vituum": "^2.0.1"
+  }
+}

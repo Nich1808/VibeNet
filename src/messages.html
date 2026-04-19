@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Messages | VibeNet</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="h-screen flex flex-col overflow-hidden">
+    <nav
+      class="sticky top-0 z-50 border-b border-slate-200/60 bg-white/80 backdrop-blur-xl dark:border-slate-800/60 dark:bg-slate-900/80"
+    >
+      <div class="mx-auto flex max-w-7xl items-center justify-between p-4">
+        <a
+          href="index.html"
+          class="text-2xl font-black text-brand tracking-tighter italic"
+          >VibeNet</a
+        >
+        <div class="hidden md:flex gap-6 font-bold text-sm">
+          <a href="index.html" class="text-brand">Home</a>
+          <a href="explore.html" class="hover:text-brand transition">Explore</a>
+          <a href="messages.html" class="hover:text-brand transition"
+            >Messages</a
+          >
+          <a href="notifications.html" class="hover:text-brand transition"
+            >Activity</a
+          >
+        </div>
+        <div class="flex items-center gap-4">
+          <button
+            onclick="document.documentElement.classList.toggle('dark')"
+            class="h-10 w-10 rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center cursor-pointer transition"
+          >
+            <span class="hover:scale-110">🌓</span>
+          </button>
+          <a href="profile.html">
+            <button
+              class="flex h-11 w-11 items-center justify-center rounded-full border-2 border-brand overflow-hidden transition-transform hover:scale-110 active:scale-95 cursor-pointer"
+            >
+              <img
+                src="/src/assets/nichh.JPG"
+                class="h-full w-full object-cover"
+                alt="profile"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <main
+      class="flex-1 flex max-w-7xl mx-auto w-full gap-4 p-4 overflow-hidden"
+    >
+      <aside
+        class="w-1/3 bg-white dark:bg-slate-900 rounded-[32px] border border-slate-200 dark:border-slate-800 p-6 overflow-y-auto"
+      >
+        <h2 class="text-2xl font-black mb-6">Inbox</h2>
+        <div class="space-y-4">
+          <div
+            class="flex items-center gap-4 p-4 rounded-2xl bg-brand/10 border-l-4 border-brand"
+          >
+            <img
+              src="https://i.pravatar.cc/150?u=ratanak"
+              class="h-12 w-12 rounded-full"
+            />
+            <div>
+              <p class="font-bold text-sm">Ratanak Khmer</p>
+              <p class="text-xs text-brand italic font-medium">
+                Is the CLI better now?
+              </p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section
+        class="flex-1 flex flex-col bg-white dark:bg-slate-900 rounded-[32px] border border-slate-200 dark:border-slate-800"
+      >
+        <div class="flex-1 p-8 overflow-y-auto space-y-6">
+          <div
+            class="max-w-md bg-slate-100 dark:bg-slate-800 p-4 rounded-3xl rounded-tl-none text-sm font-medium"
+          >
+            Dara, check the new v4 docs!
+          </div>
+          <div
+            class="max-w-md bg-brand text-white p-4 rounded-3xl rounded-tr-none text-sm font-bold ml-auto shadow-lg"
+          >
+            On it! The performance looks insane.
+          </div>
+        </div>
+
+        <div
+          class="p-6 border-t border-slate-100 dark:border-slate-800 flex gap-4"
+        >
+          <input
+            type="text"
+            class="flex-1 bg-slate-50 dark:bg-slate-800 rounded-full px-6 outline-none"
+            placeholder="Write a message..."
+          />
+          <button
+            class="bg-brand h-12 w-12 rounded-full text-white flex items-center justify-center hover:scale-110 transition"
+          >
+            🚀
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
