@@ -16,35 +16,33 @@
           >VibeNet</a
         >
         <div class="hidden md:flex gap-6 font-bold text-sm">
-          <a href="index.html" class="text-brand">Home</a>
+          <a href="index.html" class="hover:text-brand transition"
+            >Home</a>
           <a href="explore.html" class="hover:text-brand transition">Explore</a>
-          <a href="messages.html" class="hover:text-brand transition"
-            >Messages</a
-          >
+          <a href="messages.html" class="text-brand">Messages</a>
           <a href="notifications.html" class="hover:text-brand transition"
             >Activity</a
           >
         </div>
-        <div class="flex items-center gap-4">
-          <button
-            onclick="document.documentElement.classList.toggle('dark')"
-            class="h-10 w-10 rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center cursor-pointer transition"
-          >
-            <span class="hover:scale-110">🌓</span>
-          </button>
-          <a href="profile.html">
+
+         <div class="flex items-center gap-4">
             <button
-              class="flex h-11 w-11 items-center justify-center rounded-full border-2 border-brand overflow-hidden transition-transform hover:scale-110 active:scale-95 cursor-pointer"
+                onclick="document.documentElement.classList.toggle('dark')"
+                class="h-10 w-10 rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center cursor-pointer transition hover:scale-110"
             >
-              <img
-                src="/src/assets/nichh.JPG"
-                class="h-full w-full object-cover"
-                alt="profile"
-              />
+                <span class="transition-transform">🌓</span>
             </button>
-          </a>
+
+            <a href="profile.html">
+                <button class="flex h-11 w-11 items-center justify-center rounded-full border-2 border-slate-200 dark:border-slate-700 overflow-hidden transition-all hover:border-brand hover:scale-110 active:scale-95 cursor-pointer">
+                <img
+                    src="/src/assets/nichh.JPG"
+                    class="h-full w-full object-cover"
+                    alt="profile"
+                />
+                </button>
+            </a>
         </div>
-      </div>
     </nav>
 
     <main
